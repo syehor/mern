@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "server": "nodemon -L --exec babel-node app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.3",
+    "graphql-yoga": "^1.17.4",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.4.4"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.2.2"
+  }
+}
